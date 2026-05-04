@@ -1,0 +1,224 @@
+{
+  "nextIds": {
+    "asset": 8,
+    "booking": 1,
+    "handover": 1,
+    "review": 1,
+    "photo": 1
+  },
+  "assets": [
+    {
+      "asset_id": 7,
+      "owner_id": 999,
+      "owner_name": "Current User",
+      "owner_rating": 5,
+      "owner_total_listings": 1,
+      "asset_name": "George Marks",
+      "category": "Videography",
+      "description": "Incididunt eos dolo",
+      "condition": "Brand New",
+      "daily_rate": 41,
+      "security_deposit": 18,
+      "pickup_location": "Rerum molestiae odio",
+      "city": "Maiores dolorem reru",
+      "status": "Available",
+      "requires_advance_booking": false,
+      "created_at": "2026-05-04T16:59:25.246Z",
+      "updated_at": "2026-05-04T16:59:25.246Z",
+      "specifications": [],
+      "included_accessories": [],
+      "images": [
+        "https://placehold.co/600x400?text=Asset"
+      ]
+    },
+    {
+      "asset_id": 1,
+      "owner_id": 101,
+      "asset_name": "Canon EOS R5 Camera",
+      "category": "Photography",
+      "description": "Professional full-frame mirrorless camera with 45MP sensor. Includes 2 batteries, charger, and camera bag.",
+      "condition": "Excellent",
+      "daily_rate": 50,
+      "security_deposit": 200,
+      "pickup_location": "Blue Area, Islamabad",
+      "city": "Islamabad",
+      "status": "Available",
+      "requires_advance_booking": false,
+      "owner_name": "Ali Khan",
+      "owner_rating": 4.8,
+      "owner_total_listings": 24,
+      "created_at": "2026-04-10T10:00:00.000Z",
+      "updated_at": "2026-04-10T10:00:00.000Z",
+      "images": [
+        "https://placehold.co/600x400?text=Canon+R5"
+      ],
+      "specifications": [
+        "45MP Full-Frame Sensor",
+        "8K Video Recording",
+        "Dual Card Slots",
+        "In-Body Stabilization"
+      ],
+      "included_accessories": [
+        "2x Batteries",
+        "Charger",
+        "Camera Bag",
+        "Lens Cloth"
+      ]
+    },
+    {
+      "asset_id": 2,
+      "owner_id": 102,
+      "asset_name": "MacBook Pro 16 inch M3",
+      "category": "Computing",
+      "description": "High-performance laptop for editing and development.",
+      "condition": "Excellent",
+      "daily_rate": 35,
+      "security_deposit": 150,
+      "pickup_location": "Johar Town, Lahore",
+      "city": "Lahore",
+      "status": "Available",
+      "requires_advance_booking": false,
+      "owner_name": "Sara Ahmed",
+      "owner_rating": 4.7,
+      "owner_total_listings": 12,
+      "created_at": "2026-04-12T10:00:00.000Z",
+      "updated_at": "2026-04-12T10:00:00.000Z",
+      "images": [
+        "https://placehold.co/600x400?text=MacBook+Pro"
+      ],
+      "specifications": [
+        "M3 Chip",
+        "36GB RAM",
+        "1TB SSD"
+      ],
+      "included_accessories": [
+        "Original Charger"
+      ]
+    },
+    {
+      "asset_id": 3,
+      "owner_id": 103,
+      "asset_name": "DJI Mavic 3 Pro Drone",
+      "category": "Videography",
+      "description": "Professional drone for aerial cinematography.",
+      "condition": "Good",
+      "daily_rate": 65,
+      "security_deposit": 250,
+      "pickup_location": "Clifton, Karachi",
+      "city": "Karachi",
+      "status": "Available",
+      "requires_advance_booking": true,
+      "owner_name": "Hassan Ali",
+      "owner_rating": 4.6,
+      "owner_total_listings": 8,
+      "created_at": "2026-04-14T10:00:00.000Z",
+      "updated_at": "2026-04-14T10:00:00.000Z",
+      "images": [
+        "https://placehold.co/600x400?text=DJI+Mavic+3"
+      ],
+      "specifications": [
+        "4K/120fps",
+        "46min Flight Time"
+      ],
+      "included_accessories": [
+        "Controller",
+        "Spare Props",
+        "Carrying Case"
+      ]
+    },
+    {
+      "asset_id": 4,
+      "owner_id": 104,
+      "asset_name": "Rode Wireless GO II",
+      "category": "Audio",
+      "description": "Dual-channel wireless microphone system.",
+      "condition": "Excellent",
+      "daily_rate": 15,
+      "security_deposit": 50,
+      "pickup_location": "F-10, Islamabad",
+      "city": "Islamabad",
+      "status": "Available",
+      "requires_advance_booking": false,
+      "owner_name": "Fatima Sheikh",
+      "owner_rating": 4.9,
+      "owner_total_listings": 10,
+      "created_at": "2026-04-18T10:00:00.000Z",
+      "updated_at": "2026-04-18T10:00:00.000Z",
+      "images": [
+        "https://placehold.co/600x400?text=Rode+Wireless"
+      ],
+      "specifications": [
+        "200m Range",
+        "24-bit Audio"
+      ],
+      "included_accessories": [
+        "Charging Case",
+        "Windscreens"
+      ]
+    },
+    {
+      "asset_id": 5,
+      "owner_id": 105,
+      "asset_name": "Lighting Kit Professional",
+      "category": "Photography",
+      "description": "3-point LED lighting kit.",
+      "condition": "Good",
+      "daily_rate": 30,
+      "security_deposit": 100,
+      "pickup_location": "Rawalpindi Saddar",
+      "city": "Rawalpindi",
+      "status": "Available",
+      "requires_advance_booking": false,
+      "owner_name": "Usman Malik",
+      "owner_rating": 4.5,
+      "owner_total_listings": 7,
+      "created_at": "2026-04-20T10:00:00.000Z",
+      "updated_at": "2026-04-20T10:00:00.000Z",
+      "images": [
+        "https://placehold.co/600x400?text=Lighting+Kit"
+      ],
+      "specifications": [
+        "5600K",
+        "CRI 95+"
+      ],
+      "included_accessories": [
+        "3 Stands",
+        "Softboxes"
+      ]
+    },
+    {
+      "asset_id": 6,
+      "owner_id": 106,
+      "asset_name": "Wacom Cintiq Pro 24",
+      "category": "Design",
+      "description": "24-inch creative pen display.",
+      "condition": "Excellent",
+      "daily_rate": 40,
+      "security_deposit": 120,
+      "pickup_location": "Gulberg, Lahore",
+      "city": "Lahore",
+      "status": "Available",
+      "requires_advance_booking": false,
+      "owner_name": "Ayesha Khan",
+      "owner_rating": 4.8,
+      "owner_total_listings": 9,
+      "created_at": "2026-04-21T10:00:00.000Z",
+      "updated_at": "2026-04-21T10:00:00.000Z",
+      "images": [
+        "https://placehold.co/600x400?text=Wacom+Cintiq"
+      ],
+      "specifications": [
+        "4K Display",
+        "8192 Pressure Levels"
+      ],
+      "included_accessories": [
+        "Pro Pen 2",
+        "Remote"
+      ]
+    }
+  ],
+  "bookings": [],
+  "handoverRecords": [],
+  "conditionPhotos": [],
+  "reviews": []
+}
