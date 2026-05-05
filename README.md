@@ -26,6 +26,15 @@ npm run dev
 ```
 Frontend runs on `http://localhost:5173` and uses `VITE_API_BASE_URL`.
 
+## Run With Docker Compose
+```bash
+docker compose up --build
+```
+
+Services:
+- Frontend: `http://localhost:8080`
+- Backend API: `http://localhost:4000`
+
 ## Implemented Backend APIs
 - `GET /health`
 - `GET /api/v1/assets/catalog`
