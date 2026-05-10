@@ -1,8 +1,9 @@
-# EquipHub Full App (Frontend + Backend)
+# EquipHub Full App (PERN + Docker)
 
 ## Structure
 - `Frontend/` React + Vite UI integrated with API
-- `backend/` Express API with persistent JSON datastore
+- `backend/` Express API with PostgreSQL datastore
+- `backend/db/init/` SQL init scripts (schema + seed)
 
 ## Environment Files
 - `Frontend/.env`
@@ -34,6 +35,7 @@ docker compose up --build
 Services:
 - Frontend: `http://localhost:8080`
 - Backend API: `http://localhost:4000`
+- PostgreSQL: `localhost:5432` (`db: equiphub`, `user: postgres`, `password: postgres`)
 
 ## Implemented Backend APIs
 - `GET /health`

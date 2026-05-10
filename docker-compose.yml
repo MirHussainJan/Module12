@@ -1,4 +1,18 @@
 services:
+  db:
+    image: postgres:16-alpine
+    container_name: equiphub-db
+    environment:
+      POSTGRES_DB: equiphub
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./backend/db/init:/docker-entrypoint-initdb.d
+    restart: unless-stopped
+
   backend:
     build:
       context: ./backend
@@ -7,8 +21,11 @@ services:
     environment:
       PORT: 4000
       CORS_ORIGIN: http://localhost:8080
+      DATABASE_URL: postgresql://postgres:postgres@db:5432/equiphub
     ports:
       - "4000:4000"
+    depends_on:
+      - db
     restart: unless-stopped
 
   frontend:
@@ -23,3 +40,6 @@ services:
     ports:
       - "8080:80"
     restart: unless-stopped
+
+volumes:
+  pgdata:

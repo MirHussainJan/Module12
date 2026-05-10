@@ -28,7 +28,7 @@ export default function AssetDashboard() {
             <h1 className="text-xl md:text-2xl font-bold text-gray-900">EquipHub</h1>
             <p className="text-xs md:text-sm text-gray-500">Hardware & Asset Rental Platform</p>
           </div>
-          <nav className="flex flex-wrap gap-3 md:gap-6 w-full md:w-auto">
+          <nav className="flex flex-wrap gap-3 md:gap-6 w-full md:w-auto items-center">
             <Link to="/" className="text-blue-600 font-medium text-sm md:text-base">Browse Equipment</Link>
             <Link to="/my-rentals" className="text-gray-600 hover:text-gray-900 text-sm md:text-base">My Rentals</Link>
             <Link to="/add-asset" className="bg-blue-600 text-white px-3 md:px-4 py-2 rounded-md flex items-center gap-2 text-sm md:text-base">
