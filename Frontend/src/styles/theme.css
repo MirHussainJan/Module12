@@ -1,29 +1,77 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: #f9f9ff;
-  --surface: #ffffff;
-  --surface-2: #e7eeff;
-  --surface-3: #d8e3fb;
-  --primary: #001736;
-  --primary-container: #002b5b;
-  --accent: #89f5e7;
-  --text: #111c2d;
-  --text-muted: #43474f;
-  --outline: #c4c6d0;
+  --background: #f9f9ff !important;
+  --surface: #ffffff !important;
+  --surface-2: #e7eeff !important;
+  --surface-3: #d8e3fb !important;
+  --primary: #001736 !important;
+  --primary-container: #002b5b !important;
+  --accent: #89f5e7 !important;
+  --text: #111c2d !important;
+  --text-muted: #43474f !important;
+  --outline: #c4c6d0 !important;
+  --success-bg: #dff7ef !important;
+  --success-text: #005049 !important;
+  --danger-bg: #ffdad6 !important;
+  --danger-text: #93000a !important;
 }
 
 @layer base {
   * {
-    border-color: color-mix(in srgb, var(--outline) 45%, transparent);
+    border-color: color-mix(in srgb, var(--outline) 45%, transparent) !important;
   }
 
   body {
-    background: radial-gradient(circle at 10% 0%, #eef4ff 0%, var(--background) 45%, #f5f8ff 100%);
-    color: var(--text);
+    background: radial-gradient(circle at 10% 0%, #eef4ff 0%, var(--background) 45%, #f5f8ff 100%) !important;
+    color: var(--text) !important;
     font-family: "Inter", sans-serif;
   }
   h1, h2, h3, h4 {
-    font-family: "Manrope", sans-serif;
+    font-family: "Manrope", sans-serif !important;
+  }
+
+  .eh-header {
+    background-color: var(--surface) !important;
+    border-bottom: 1px solid var(--outline) !important;
+  }
+
+  .eh-card {
+    background-color: var(--surface) !important;
+    border: 1px solid var(--outline) !important;
+  }
+
+  .eh-input {
+    background-color: var(--surface) !important;
+    border: 1px solid var(--outline) !important;
+    color: var(--text) !important;
+  }
+
+  select.eh-input {
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    padding-right: 2.5rem !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%2343474f' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E") !important;
+    background-repeat: no-repeat !important;
+    background-position: right 0.8rem center !important;
+    background-size: 14px !important;
+  }
+
+  .eh-primary-btn {
+    background-color: var(--primary) !important;
+    color: #ffffff !important;
+  }
+
+  .eh-primary-btn:hover {
+    background-color: var(--primary-container) !important;
+  }
+
+  .eh-link {
+    color: var(--primary-container) !important;
+  }
+
+  .eh-muted {
+    color: var(--text-muted) !important;
   }
 }
